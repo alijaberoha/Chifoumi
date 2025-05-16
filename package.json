@@ -1,6 +1,6 @@
 {
   "name": "chifoumi",
-  "homepage": "https://alijaberoha.github.io/chifoumi",
+  "homepage": "https://alijaberoha.github.io/chifoumi/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "nom run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
