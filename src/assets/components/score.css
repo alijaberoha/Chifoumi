@@ -1,0 +1,42 @@
+body{
+  background-color: #172041;
+
+  
+}
+.container{
+display: flex;
+justify-content: center;
+
+}
+.case{
+border: solid 2px white;
+display: flex;
+justify-content: space-between;
+width: 500px;
+padding: 10px;
+border-radius: 10px;
+
+    }
+.logo{
+
+      }
+.score{
+    border: solid 2px white;
+    background-color: white;
+    width: 100px;
+    border-radius: 10px;
+}
+.score p{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.score h1{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+} 
